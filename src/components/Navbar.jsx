@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
 export default function Navbar() {
     return (
         <nav>
-            <img src='.\assets\logo.jpg' />
+            <img src='./assets/logo.jpg' alt="Logo" />
         </nav>
-    )
+    );
 }
