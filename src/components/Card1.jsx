@@ -1,4 +1,4 @@
-// Card1.js
+'// Card1.js'
 import React from 'react';
 
 const Card1 = ({ data }) => {

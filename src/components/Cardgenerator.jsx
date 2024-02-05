@@ -1,18 +1,18 @@
 
-import React from 'react';
-import Layout from './layout';
-import Card1 from './Card1';
-import Card2 from './Card2';
+// CardGenerator.jsx
+import React from "react";
+import Layout from './components/layout.jsx';
+import Card1 from './components/Card1.jsx';
+import Card2 from './components/Card2.jsx';
 
-const Cardgenerator = ({ dataArray }) => {
+const CardGenerator = ({ dataArray }) => {
   return (
     <Layout>
       {dataArray.map((data, index) => (
-        
         index % 2 === 0 ? <Card1 key={index} data={data} /> : <Card2 key={index} data={data} />
       ))}
     </Layout>
   );
 };
 
-export default Cardgenerator;
+export default CardGenerator
