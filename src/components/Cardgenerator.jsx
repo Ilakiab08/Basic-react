@@ -8,11 +8,15 @@ import Card2 from './components/Card2.jsx';
 const CardGenerator = ({ dataArray }) => {
   return (
     <Layout>
-      {dataArray.map((data, index) => (
-        index % 2 === 0 ? <Card1 key={index} data={data} /> : <Card2 key={index} data={data} />
-      ))}
-    </Layout>
+    {dataArray.map((data, index) => (
+      <div key={index}>
+        <Card1 data={data} />
+        <Card2 data={data} />
+      </div>
+    ))}
+  </Layout>
+  
   );
 };
 
-export default CardGenerator
+export default CardGenerator;
