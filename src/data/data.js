@@ -1,7 +1,7 @@
  const tesla_data = [
   {
       "name": "Model S",
-      "image_url": "./src/assets/model-s.jpg",
+      "image_url": "./assets/model-s.jpg",
       "description": "The Tesla Model S is a luxury all-electric sedan known for its performance and range."
   },
   {
