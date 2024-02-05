@@ -1,8 +1,8 @@
 // App.jsx
 import React from "react";
-import CardGenerator from "src/components/CardGenerator.jsx";
+import CardGenerator from "./CardGenerator";
 import tesla_data from "./data/data.js";  
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./Navbar";
 
 import "./index.css";
 
