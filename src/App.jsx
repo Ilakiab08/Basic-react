@@ -1,6 +1,7 @@
+import Card from "./components/Card.jsx"
+import Navbar from "./components/Navbar.jsx";
 
-import Navbar from './components./Navbar.jsx'
-import './App.css'
+import './src./App.css'
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Card />
     </>
   )
 }
