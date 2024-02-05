@@ -10,59 +10,81 @@ body {
 nav {
   height: 70px;
   display: flex;
+  align-items: center;
   padding: 20px 36px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.bold {
-  font-weight: bold;
-}
-
-.gray {
-  color: #918E9B;
-}
-
-.nav--logo {
+nav img {
   max-width: 100px;
+  height:70px;
+  margin-right: 10px; 
 }
 
-section {
+.heading1 {
+  flex-grow: 1; 
+  font-size: 24px;
+  text-align: center; 
+  color: #333;
+}
+
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 20px;
 }
 
-.hero {
+.contact-card {
+  height: 40%;
+  width: 30%;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin: 10px;
 }
 
-.hero--photo {
-  max-width: 400px;
-  align-self: center;
-}
-
-.hero--header {
-  margin-bottom: 16px;
-}
-
-.hero--text {
-  margin-top: 0;
-}
-
-.card {
-  width: 175px;
-  font-size: 12px;
-}
-
-.card--image {
+.contact-card > img {
   width: 100%;
-  border-radius: 9px;
+  height: auto;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
-.card--stats {
+.contact-card > h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 10px; 
+}
+
+.info-group {
   display: flex;
   align-items: center;
+  margin-top: 8px;
 }
 
-.card--star {
-  height: 14px;
+.info-group > img {
+  height: 11px;
+  margin-right: 8px;
+}
+
+.info-group > p {
+  margin-block: 3px;
+  font-size: 12px;
+  color: #2B283A;
+}
+.heading1{
+  font-family:'Poppins',sans-serif;
+  font-weight:600;
+  line-height:1.4;
+  letter-spacing:0em;
+  text-align:center;
+  font-size:20px;
+  padding-bottom:10px;
+  
 }

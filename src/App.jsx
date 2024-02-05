@@ -1,42 +1,19 @@
 import React from "react";
-import Card from "./components/Card.jsx";
+import CardGenerator from './Cardgenerator';
+import tesla_data from './data/tesla_data'; 
 import Navbar from "./components/Navbar.jsx";
 
-import "./src/index.css"; 
+import "./index.css";
 
-function App() {
+
+const App = () => {
   return (
-    <>
-      <Navbar />
-     
-      <div className="Card">
-            <Card 
-                img="./images/mr-whiskerson.png" 
-                name="Mr. Whiskerson"
-                phone="(212) 555-1234"
-                email="mr.whiskaz@catnap.meow"
-            />
-            <Card
-                img="./images/fluffykins.png"
-                name="Fluffykins"
-                phone="(212) 555-2345"
-                email="fluff@me.com"
-            />
-            <Card
-                img="./images/felix.png"
-                name="Felix"
-                phone="(212) 555-4567"
-                email="thecat@hotmail.com"
-            />
-            <Card
-                img="./images/pumpkin.png"
-                name="Pumpkin"
-                phone="(0800) CAT KING"
-                email="pumpkin@scrimba.com"
-            />
-        </div>
-    </>
+    <div>
+      <Navbar/>
+      <h1>Tesla Car Showcase</h1>
+      <CardGenerator dataArray={tesla_data} />
+    </div>
   );
-}
+};
 
 export default App;
