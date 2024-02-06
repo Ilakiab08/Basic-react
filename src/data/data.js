@@ -1,7 +1,7 @@
 const tesla_data = [
     {
         "name": "Model S",
-        "image_url": "./images/model-s.jpg", // Updated path
+        "image_url": "https://unsplash.com/photos/running-black-porsche-sedan-3ZUsNJhi_Ik", // Updated path
         "description": "The Tesla Model S is a luxury all-electric sedan known for its performance and range."
     },
     {
