@@ -1,33 +1,34 @@
- const tesla_data = [
-  {
-      "name": "Model S",
-      "image_url": ".\images\model-s.jpg",
-      "description": "The Tesla Model S is a luxury all-electric sedan known for its performance and range."
-  },
-  {
-      "name": "Model 3",
-      "image_url": "images\model-3.jpg",
-      "description": "The Tesla Model 3 is a popular midsize all-electric sedan with a focus on affordability."
-  },
-  {
-      "name": "Model X",
-      "image_url": "images\model-x.jpg",
-      "description": "The Tesla Model X is an all-electric SUV featuring distinctive falcon-wing doors."
-  },
-  {
-      "name": "Model Y",
-      "image_url": "images\model-y.jpg",
-      "description": "The Tesla Model Y is a compact all-electric SUV with a sleek design and impressive performance."
-  },
-  {
-      "name": "Cybertruck",
-      "image_url": "images\Cybertruck.png",
-      "description": "The Tesla Cybertruck is an all-electric pickup truck with a futuristic and robust design."
-  },
-  {
-      "name": "Roadster",
-      "image_url": "images\Roadster.jpg",
-      "description": "The Tesla Roadster is a high-performance all-electric sports car, the first production car from Tesla."
-  }
-]
-export default tesla_data
+const tesla_data = [
+    {
+        "name": "Model S",
+        "image_url": "./images/model-s.jpg", // Updated path
+        "description": "The Tesla Model S is a luxury all-electric sedan known for its performance and range."
+    },
+    {
+        "name": "Model 3",
+        "image_url": "./images/model-3.jpg", // Updated path
+        "description": "The Tesla Model 3 is a popular midsize all-electric sedan with a focus on affordability."
+    },
+    {
+        "name": "Model X",
+        "image_url": "./images/model-x.jpg", // Updated path
+        "description": "The Tesla Model X is an all-electric SUV featuring distinctive falcon-wing doors."
+    },
+    {
+        "name": "Model Y",
+        "image_url": "./images/model-y.jpg", // Updated path
+        "description": "The Tesla Model Y is a compact all-electric SUV with a sleek design and impressive performance."
+    },
+    {
+        "name": "Cybertruck",
+        "image_url": "./images/Cybertruck.png", // Updated path
+        "description": "The Tesla Cybertruck is an all-electric pickup truck with a futuristic and robust design."
+    },
+    {
+        "name": "Roadster",
+        "image_url": "./images/Roadster.jpg", // Updated path
+        "description": "The Tesla Roadster is a high-performance all-electric sports car, the first production car from Tesla."
+    }
+  ]
+  export default tesla_data;
+  
