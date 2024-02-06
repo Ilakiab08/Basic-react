@@ -4,7 +4,7 @@
 
 #root{
   height:1800px;
-  width:800px;
+  width:1400px;
   border: 20px;
   margin:20px;
   
@@ -31,7 +31,7 @@ nav img {
   color: #333;
 }
 
-/* .layout {
+ .layout {
   display: flex;
   justify-content: space-around;
   padding: 20px;
@@ -39,7 +39,7 @@ nav img {
   margin: 0 auto;
   flex-wrap: wrap;
   
-} */
+} 
 
 .card {
   width: 200px;
